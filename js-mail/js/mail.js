@@ -23,5 +23,5 @@ for (var i = 0; i < aceptedMail.length; i++) {
 if (verificaMail == false) {
     document.getElementById("color").innerHTML = "<div class=\"red\"></div> <br>" + "<h1>Mi dispiace, ma la tua Email non è presente tra quella degli invitati, ti invitiamo a contattare l'organizzatore al numero <br>XXX-XXXXXXX";
 }else if (verificaMail == true) {
-    document.getElementById("color").innerHTML = "<div class=\"green\"></div> <br>" + "<h1>Il tuo indirizzo Email è presente tra quello degli invitati. A breve riceverà l'indirizzo dell'evento";
+    document.getElementById("color").innerHTML = "<div class=\"green\"></div> <br>" + "<h1>Il tuo indirizzo Email è presente tra quello degli invitati. A breve riceverai l'indirizzo dell'evento";
 }
